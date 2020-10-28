@@ -103,3 +103,75 @@
 
 // -------------------------
 
+// Objects
+
+// let dog = {
+//   name: 'Beef',
+//   breed: 'Chihuahua',
+//   age: 5,
+//   puppies: [
+//     {
+//       name: 'Chicken',
+//       breed: 'Chihuahua',
+//       age: 1
+//     },
+//     {
+//       name: 'Onions',
+//       breed: 'Chihuahua',
+//       age: 1
+//     },
+//     {
+//       name: 'Barley',
+//       breed: 'Chihuahua',
+//       age: 1
+//     }
+//   ]
+// }
+
+// Access value with dot notation
+// console.log(dog.name, dog.breed)
+
+// Grabbing object properties off arrays off objects
+// console.log(dog.puppies[1].name)
+
+// -------------------------
+
+// Create 5 user objects in the users array, each with key/value pairs for name, email, address, and phone
+// let users = [
+//   {
+//     name: 'John Doe',
+//     email: 'johndoe@gmail.com',
+//     address: '123 Main St',
+//     phone: '(123) 456-7890'
+//   }
+// ]
+
+// Here we are given a cob-web of items. Let's dig in and grab the items we need.
+// let theCobWeb = {
+//   biggestWeb: {
+//     item: 'comb',
+//     biggerWeb: {
+//       items: ['glasses', 'paperclip', 'bubblegum'],
+//       smallerWeb: {
+//         item: 'toothbrush',
+//         tinyWeb: {
+//           items: ['toenails', 'lint', 'wrapper', 'homework']
+//           }
+//       }
+//     },
+//     otherBigWeb: {
+//       item: 'headphones'
+//     }
+//   }
+// }
+// "I found my homework!"
+// console.log(`I found my ${theCobWeb.biggestWeb.biggerWeb.smallerWeb.tinyWeb.items[3]}!`)
+
+// "I found my headphones!"
+// console.log(`I found my ${theCobWeb.biggestWeb.otherBigWeb.item}!`)
+
+// "I found my glasses!"
+// console.log(`I found my ${theCobWeb.biggestWeb.biggerWeb.items[0]}!`)
+
+// "I found my toothbrush!"
+// console.log(`I found my ${theCobWeb.biggestWeb.biggerWeb.smallerWeb.item}!`)
